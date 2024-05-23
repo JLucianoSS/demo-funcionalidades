@@ -8,6 +8,8 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useCarContext } from "../context/CarContext";
 
+const key = import.meta.env.VITE_API_KEY;
+
 const containerStyle = {
   width: "100%",
   height: "400px",
@@ -21,7 +23,7 @@ const center = {
 const Map = () => {
   const { filteredCars } = useCarContext();
   const { isLoaded, loadError } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyCgMT44A_w2438-ny_mmv6Opkupk-E8ltI",
+    googleMapsApiKey: key,
   });
   const [selectedCar, setSelectedCar] = useState(null);
   const navigate = useNavigate();
