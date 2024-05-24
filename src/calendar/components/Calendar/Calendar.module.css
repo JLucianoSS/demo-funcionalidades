@@ -1,0 +1,71 @@
+/* LargeCalendar.module.css */
+.largeCalendarContainer {
+  padding: 20px;
+  max-width: 100%;
+  background: #e4e4e4;
+  border-radius: 25px;
+  position: relative;
+
+}
+
+.rdp {
+  --rdp-cell-size: 5vw; /* Ajusta el tamaño de las celdas del día */
+  --rdp-caption-font-size: 24px; /* Ajusta el tamaño de fuente para las etiquetas de los títulos */
+  --rdp-accent-color: #4caf50; /* Color de acento para el fondo de los días seleccionados */
+  --rdp-accent-color-dark: #388e3c; /* Color de acento para el fondo de los días seleccionados */
+  --rdp-background-color: #ffffff; /* Color de fondo para los elementos enfocados o suspendidos */
+  --rdp-background-color-dark: #180270; /* Color de fondo para los elementos enfocados o suspendidos */
+  --rdp-outline: 2px solid #4caf50; /* Borde de contorno para elementos enfocados */
+  --rdp-outline-selected: 3px solid #4caf50; /* Borde de contorno para elementos enfocados y seleccionados */
+  --rdp-selected-color: white; /* Color de texto para los días seleccionados */
+}
+
+
+.button {
+  padding: 10px;
+  position: absolute;
+  left: 48%;
+  top: 48px;
+  
+}
+
+
+/* Responsive */
+
+/* Extra pequeño (móviles pequeños) */
+@media (max-width: 320px) {
+  /* Tus estilos aquí */
+}
+
+@media (max-width: 375px) {
+  /* Tus estilos aquí */
+}
+
+/* Pequeño (móviles) */
+@media (max-width: 480px) {
+  /* Tus estilos aquí */
+}
+
+@media (max-width: 576px) {
+  /* Tus estilos aquí */
+}
+
+/* Mediano (tabletas) */
+@media (max-width: 768px) {
+  /* Tus estilos aquí */
+}
+
+/* Grande (portátiles) */
+@media (max-width: 992px) {
+  /* Tus estilos aquí */
+}
+
+/* Extra grande (escritorio) */
+@media (max-width: 1200px) {
+  /* Tus estilos aquí */
+}
+
+/* XXL (escritorio grande) */
+@media (max-width: 1400px) {
+  /* Tus estilos aquí */
+}

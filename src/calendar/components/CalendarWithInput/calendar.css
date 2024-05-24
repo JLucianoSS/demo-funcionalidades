@@ -1,0 +1,13 @@
+.calendar-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .calendar-dropdown {
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 4px;
+  }
